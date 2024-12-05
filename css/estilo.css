@@ -1,0 +1,189 @@
+.hero {
+    background-color: #eee7f5;
+    padding: 50px 20px;
+    text-align: center;
+}
+.category-item, .product {
+    background-color: white;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.hero button {
+    background-color: #4c3264;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+}
+
+footer {
+    background-color: #3f3649;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.category-item a {
+    text-decoration: none;
+    color: inherit;
+}
+.category-item a:hover {
+    color: #442b4e; /* Color al pasar el cursor */
+}
+
+img{
+    display: flex;
+    align-items: center;
+
+}
+
+#al{
+    width: 200px;
+    
+}
+
+
+.product-item { 
+
+    background-color: #fff; 
+
+    border: 1px solid #ddd; 
+
+    border-radius: 5px; 
+
+    text-align: center; 
+
+    padding: 15px; 
+
+    margin-bottom: 20px; 
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+} 
+
+#l{
+    display: flex;
+
+    justify-content: center;
+}
+
+#u2{
+    color: #d8cbe4;
+    background-color: #7c6b8f;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.dropdown {
+    display: none;
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+.dropdown li {
+    margin: 5px 0;
+}
+.dropdown a {
+    text-decoration: none;
+    color: blue;
+}
+.dropdown a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.dropdown {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+}
+
+.dropdown li {
+    margin: 5px 0;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #333;
+}
+
+.dropdown a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+#ete{
+    background-color: #442b4e;
+    color: white;
+}
+#et{
+    color: rgb(128, 69, 151);
+}
+
+
+/*icono de contactos*/
+ 
+ 
+/*face*/
+.icono {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+ 
+.icono:hover {
+    transform: scale(1.1);
+}
+ 
+/*insta*/
+.iconoo {
+    width: 45px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+ 
+.iconoo:hover {
+    transform: scale(1.1);
+}
+ 
+.product img{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+.product:hover {
+    transform: scale(1.05);
+}
